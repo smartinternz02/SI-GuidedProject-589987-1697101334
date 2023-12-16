@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            PREDICTING UNIVERSITY SCORES
+        </title>
+    </head>
+     
+    <body  style="background-image: url(https://wallpaperaccess.com/full/2137313.jpg);
+    ">
+    <div style="padding-top: 4%;">
+        <h1 style="color:black;font: 34px; size: 8;font-weight: bold;padding-left: 35%;padding-top: 1%;"> UNIVERSITY SCORE PREDICTION</h1>
+
+          <div style="color:black;font-weight: bolder;padding-left: 45%;padding-top: 1%;"><form action="/predict" method="post">
+            <div>
+                
+               <label>QUALITY OF EDUCATION</label>
+                <br>
+                <input type="number" name="attr1">
+                </br>
+            </div>
+            <br>
+            <div>
+                <label>ALUMNI EMPLOYMENT</label>
+                <br>
+                <input type="number" name="attr2">
+                </br>
+            </div>
+            </br>
+            <div>
+                <label> QUALITY OF FACULTY</label>
+                <br>
+                <input type="number" name="attr3">
+                </br>
+            </div>
+            <br>
+            <div>
+                <label>PUBLICATIONS</label>
+                <br>
+                <input type="number" name="attr4">
+                </br>
+            </div>
+            </br>  
+            <div>
+                <label>INFLUENCE</label>
+                <br>
+                <input type="number" name="attr5">
+                </br>
+            </div>
+            <br>
+            <div>
+                <label>CITATIONS</label>
+                <br>
+                <input type="number" name="attr6">
+                </br>
+            </div>
+             </br>
+            <div>
+                <label>PATENTS</label>
+                <br>
+                <input type="number" name="attr7">
+                </br>
+            </div>
+            <div style="padding-left:5%;font-weight: bolder;">
+                <br>
+                <input type="submit" name="SCORE" style="background-color: black;color:aliceblue;">
+                </br>
+            </div>
+            <div style="font-size: large;color: antiquewhite;padding-right: 70%;">
+                <p>{{  prediction_text  }}</p>
+            </div>
+            
+            
+        </form></div>
+        </div>
+        
+ </body>
+ 
+</html>
